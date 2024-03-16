@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="box">
+        <h1 class="title">Registration Form</h1>
+        <hr><br>
+        <div class="input-boxes">
+            <div>First Name:
+                <input type="text" id="firstname" required><br>
+            </div>
+            <div id="mdlname">Middle Name:
+                <input type="text" id="lastname" required><br>
+            </div>
+        </div><br>
+
+        <div class="input-boxes">
+            <div>Last Name:<br>
+                <input type="text" id="firstname" required><br>
+            </div>
+
+            <br>
+            <div id="mdlname">
+                Email:
+                <input type="email" id="lastname" required><br>
+            </div>
+        </div>
+
+
+        <br>
+        <div class="input-boxes">
+            <div>Password:<br>
+                <input type="password" id="firstname" required><br>
+            </div>
+
+            <div id="mdlname">
+                Confirm Password:
+                <input type="password" id="lastname" required><br>
+            </div>
+        </div>
+
+        <br>
+        <div class="course">
+       
+        Select Course :
+        <select>
+            <option value="Web Development">Web Development</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Android Development">Android Development</option>
+            <option value="Data Analytics">Data Analytics</option>
+        </select>
+
+        <br><br>
+        Select Degree :
+        <select>
+            <option value="BE">BE</option>
+            <option value="B TECH">B TECH</option>
+            <option value="BCS">BCS</option>
+        </select>
+    </div>
+
+    <br>
+
+    <button type="submit" onclick="register()">Register Course</button>
+
+    </div>
+
+    <script>
+        function register(){
+            alert("Sucessfully applied for course");
+        }
+    </script>
+</body>
+</html>
